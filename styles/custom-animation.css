@@ -1,0 +1,24 @@
+@keyframes subtle-bounce {
+    0%, 100% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-8px);
+    }
+}
+
+@theme inline {
+    --animate-aurora: aurora 60s linear infinite;
+    @keyframes aurora {
+      from {
+        background-position:
+          50% 50%,
+          50% 50%;
+      }
+      to {
+        background-position:
+          350% 50%,
+          350% 50%;
+      }
+    }
+  }

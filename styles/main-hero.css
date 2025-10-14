@@ -1,0 +1,61 @@
+#main-hero h1 {
+    @apply 
+    text-4xl
+    font-black 
+    tracking-tight
+    text-5xl
+    md:text-6xl
+    mt-12
+    md:mt-48;
+}
+
+#main-hero p {
+    @apply 
+    font-black 
+    tracking-tight 
+    text-4xl
+    md:text-5xl;
+}
+
+#main-hero p strong {
+    @apply 
+    text-white
+    font-black;
+}
+
+#main-hero #main-app-container {
+    @apply 
+    min-h-screen 
+    bg-orange-500 
+    w-full 
+    flex 
+    flex-col 
+    items-center 
+    justify-center
+    px-8
+    text-center;
+}
+
+#main-hero #main-app-container img#hero-app-screen {
+    animation: subtle-bounce 2s ease-in-out infinite;
+    @apply -mt-2 z-1;
+}
+
+#main-hero #hero-app-download-buttons {
+    @apply 
+    flex
+    gap-2
+    justify-center
+    items-end
+    md:px-8
+    md:-translate-y-[4rem]
+    z-3;
+}
+
+#main-hero #hero-app-download-buttons a:hover {
+    @apply scale-105 transition-all duration-300;
+}
+
+#main-hero #main-app-container img#hero-app-dog {
+    @apply absolute bottom-0 right-1/2 -translate-x-[4rem] hidden md:block z-2;
+}

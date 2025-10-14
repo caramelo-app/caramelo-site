@@ -1,0 +1,15 @@
+header {
+    @apply container mx-auto px-8 gap-6 flex justify-between items-center py-8 fixed top-0 left-1/2 -translate-x-1/2 w-full z-5;
+}
+header div {
+    @apply gap-4 justify-end hidden md:flex;
+}
+header img {
+    @apply mx-auto md:mx-0;
+}
+header .custom-button {
+    @apply bg-white text-black px-4 md:px-6 py-2 rounded-full font-bold text-sm;
+}
+header .custom-button:hover {
+    @apply bg-black text-white transition-all duration-300;
+}

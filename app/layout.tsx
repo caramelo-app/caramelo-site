@@ -11,7 +11,7 @@ const onest = Onest({
 });
 
 export const metadata: Metadata = {
-    title: "Caramelo",
+    title: "Caramelo - Sua carteira digital de selinhos de fidelidade",
     description:
         "Chega de cartãozinho! Com o Caramelo®, seus selinhos de fidelidade estão todos no celular — simples, confiável e de graça!",
 };

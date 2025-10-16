@@ -9,11 +9,25 @@ const Footer: FC = () => {
     return (
         <footer>
             <div>
-                <Image src={logo} alt="Caramelo® - Logo" width={240} height={40} />
-                <p>O Caramelo® é um app para estabelecimentos e seus clientes abolirem de vez os cartõezinhos de papel que são utilizados para contabilizar selos em troca de um benefício. Chega de carimbinho ou adesivo! O Caramelo® centraliza todos seus cartões em um meio digital fácil, confiável e rápido. Clientes podem buscar diretamente no app quais estabelecimentos aceitam Caramelo® na sua região.</p>
+                <Image
+                    src={logo}
+                    alt="Caramelo® - Logo"
+                    width={240}
+                    height={40}
+                />
+                <p>
+                    O Caramelo® é um app para estabelecimentos e seus clientes
+                    abolirem de vez os cartõezinhos de papel que são utilizados
+                    para contabilizar selos em troca de um benefício. Chega de
+                    carimbinho ou adesivo! O Caramelo® centraliza todos seus
+                    cartões em um meio digital fácil, confiável e rápido.
+                    Clientes podem buscar diretamente no app quais
+                    estabelecimentos aceitam Caramelo® na sua região.
+                </p>
                 <nav>
                     <ul>
-                        <li>Caramelo
+                        <li>
+                            Caramelo
                             <ul>
                                 <li>Home</li>
                                 <li>Suporte</li>
@@ -22,7 +36,8 @@ const Footer: FC = () => {
                                 <li>Termos de uso</li>
                             </ul>
                         </li>
-                        <li>Para você e sua empresa
+                        <li>
+                            Para você e sua empresa
                             <ul>
                                 <li>Baixar app - iOS</li>
                                 <li>Baixar app - Android</li>
@@ -43,7 +58,10 @@ const Footer: FC = () => {
                 </nav>
             </div>
             <div>
-                <p>{year}® Caramelo - Todos os direitos reservados - Esser Serviços em Tecnologia - E&M Tech - CNPJ 57962671000150 </p>
+                <p>
+                    {year}® Caramelo - Todos os direitos reservados - Esser
+                    Serviços em Tecnologia - E&M Tech - CNPJ 57962671000150{" "}
+                </p>
             </div>
         </footer>
     );

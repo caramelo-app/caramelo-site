@@ -1,4 +1,4 @@
 #for-your-business {
     background-image: url("/images/index/for-your-business-bg.webp");
-    @apply bg-cover bg-center bg-no-repeat border-2;
+    @apply bg-cover bg-center bg-no-repeat;
 }

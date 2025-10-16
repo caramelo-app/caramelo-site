@@ -12,7 +12,8 @@ const onest = Onest({
 
 export const metadata: Metadata = {
     title: "Caramelo",
-    description: "Chega de cartãozinho! Com o Caramelo®, seus selinhos de fidelidade estão todos no celular — simples, confiável e de graça!",
+    description:
+        "Chega de cartãozinho! Com o Caramelo®, seus selinhos de fidelidade estão todos no celular — simples, confiável e de graça!",
 };
 
 export default function RootLayout({

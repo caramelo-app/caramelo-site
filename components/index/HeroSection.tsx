@@ -14,8 +14,6 @@ const HeroSection: FC = () => {
       <div id="main-app-container">
         <h1>Chega de cartãozinho.</h1>
         <p>Tenha seus selos a um clique.</p>
-        <Image id="hero-app-screen" src={heroAppScreen} alt="Caramelo® - Telas do app" width={475} height={545} quality={100} />
-        <Image id="hero-app-dog" src={heroAppDog} alt="Caramelo® - Cachorro com o celular" width={425} height={465} quality={100} />
         <div id="hero-app-download-buttons">
           <Link href="/">
             <Image src={globalAppStore} alt="Caramelo® - Telas do app" width={184} height={58} quality={100} />
@@ -24,6 +22,8 @@ const HeroSection: FC = () => {
             <Image src={globalPlayStore} alt="Caramelo® - Download no Google Play Store" width={184} height={58} quality={100} />
           </Link>
         </div>
+        <Image id="hero-app-screen" src={heroAppScreen} alt="Caramelo® - Telas do app" width={475} height={545} quality={100} />
+        <Image id="hero-app-dog" src={heroAppDog} alt="Caramelo® - Cachorro com o celular" width={425} height={465} quality={100} />
       </div>
     </AuroraBackground>
   );

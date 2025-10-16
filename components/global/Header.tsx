@@ -9,7 +9,7 @@ const Header: FC = () => {
         <header>
             <Image src={logo} alt="Caramelo® - Logo" width={240} height={30} />
             <div>
-                <CustomButton href="/">Para você</CustomButton>
+                <CustomButton href="/">Pra você</CustomButton>
                 <CustomButton href="/">Pro seu negócio</CustomButton>
             </div>
         </header>

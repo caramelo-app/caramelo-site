@@ -3,7 +3,7 @@ import CustomButton from "../global/CustomButton";
 
 const ForYourBusinessSection: FC = () => {
     return (
-        <section>
+        <section id="for-your-business">
             <h2>
                 <small>Pro seu negócio</small>
                 <br />

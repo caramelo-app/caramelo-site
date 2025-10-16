@@ -1,19 +1,21 @@
 #main-hero h1 {
     @apply 
-    text-4xl
     font-black 
+    text-orange-950
     tracking-tight
     text-5xl
     md:text-6xl
     mt-12
-    md:mt-48;
+    md:mt-72;
 }
 
 #main-hero p {
     @apply 
     font-black 
+    text-white
     tracking-tight 
     text-4xl
+    mb-8
     md:text-5xl;
 }
 
@@ -38,17 +40,14 @@
 
 #main-hero #main-app-container img#hero-app-screen {
     animation: subtle-bounce 2s ease-in-out infinite;
-    @apply -mt-2 z-1;
+    @apply -mt-2 z-2;
 }
 
 #main-hero #hero-app-download-buttons {
     @apply 
     flex
     gap-2
-    justify-center
-    items-end
     md:px-8
-    md:-translate-y-[4rem]
     z-3;
 }
 
@@ -57,5 +56,5 @@
 }
 
 #main-hero #main-app-container img#hero-app-dog {
-    @apply absolute bottom-0 right-1/2 -translate-x-[4rem] hidden md:block z-2;
+    @apply absolute bottom-0 right-1/2 -translate-x-[8rem] hidden md:block z-1;
 }

@@ -36,6 +36,7 @@
     @apply mt-12 flex gap-16 flex-col-reverse xl:flex-row;
 }
 
+
 #for-you #highlights-container h3 {
     @apply text-2xl font-black text-orange-950 tracking-tight;
 }

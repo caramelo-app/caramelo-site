@@ -29,6 +29,7 @@ const ForYouSection: FC = () => {
                 <Image
                     src={forYouImage}
                     alt="Caramelo® - For You"
+                    className="xl:w-1/2"
                     width={650}
                     height={715}
                 />

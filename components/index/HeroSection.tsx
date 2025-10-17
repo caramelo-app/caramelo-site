@@ -21,7 +21,6 @@ const HeroSection: FC = () => {
                             alt="Caramelo® - Telas do app"
                             width={184}
                             height={58}
-                            quality={100}
                         />
                     </Link>
                     <Link href="/">
@@ -30,7 +29,6 @@ const HeroSection: FC = () => {
                             alt="Caramelo® - Download no Google Play Store"
                             width={184}
                             height={58}
-                            quality={100}
                         />
                     </Link>
                 </div>
@@ -40,7 +38,6 @@ const HeroSection: FC = () => {
                     alt="Caramelo® - Telas do app"
                     width={475}
                     height={545}
-                    quality={100}
                 />
                 <Image
                     id="hero-app-dog"
@@ -48,7 +45,6 @@ const HeroSection: FC = () => {
                     alt="Caramelo® - Cachorro com o celular"
                     width={425}
                     height={465}
-                    quality={100}
                 />
             </div>
         </AuroraBackground>

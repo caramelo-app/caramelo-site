@@ -36,6 +36,11 @@ const AdvantagesSection: FC = () => {
                         <li>🌱 Mais ecológico do que cartões de papel</li>
                         <li>😍 Cartões e clientes ilimitados</li>
                         <li>👆 Libere créditos com um clique</li>
+                        <li>🔒 Sistema 100% digital e seguro</li>
+                        <li>
+                            🔄 Migre seus cartões atuais facilmente com a nossa
+                            ferramenta!
+                        </li>
                     </ul>
                     <CustomButton href="/">
                         Quero no meu estabelecimento

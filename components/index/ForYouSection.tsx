@@ -29,12 +29,11 @@ const ForYouSection: FC = () => {
                 <Image
                     src={forYouImage}
                     alt="Caramelo® - For You"
-                    className="xl:w-1/2"
                     width={650}
                     height={715}
                 />
-                <div>
-                    <div id="highlights-container-content">
+                <div id="highlights-container-content">
+                    <section>
                         <div>
                             <CheckBadgeIcon className="icon-highlight" />
                             <div>
@@ -86,7 +85,7 @@ const ForYouSection: FC = () => {
                                 </p>
                             </div>
                         </div>
-                    </div>
+                    </section>
                     <CustomButton href="/">
                         Baixe o app agora - gratuito
                     </CustomButton>

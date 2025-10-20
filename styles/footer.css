@@ -35,6 +35,10 @@ footer {
     @apply leading-relaxed font-normal;
 }
 
+#footer-container nav > ul > li > ul > li > a:hover {
+    @apply underline;
+}
+
 #footer-container nav > ul > li:last-child {
     @apply md:col-span-2 xl:col-span-1 md:justify-self-start xl:justify-self-end;
 }

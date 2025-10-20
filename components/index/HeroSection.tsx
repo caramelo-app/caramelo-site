@@ -15,7 +15,7 @@ const HeroSection: FC = () => {
                 <h1>Chega de cartãozinho.</h1>
                 <p>Tenha seus selos a um clique.</p>
                 <div id="hero-app-download-buttons">
-                    <Link href="/">
+                    <Link href="/em-breve">
                         <Image
                             src={globalAppStore}
                             alt="Baixar na App Store"
@@ -25,7 +25,7 @@ const HeroSection: FC = () => {
                             sizes="(max-width: 768px) 40vw, 184px"
                         />
                     </Link>
-                    <Link href="/">
+                    <Link href="/em-breve">
                         <Image
                             src={globalPlayStore}
                             alt="Baixar no Google Play"

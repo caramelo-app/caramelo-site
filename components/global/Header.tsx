@@ -2,11 +2,14 @@
 
 import { FC, useState, useEffect } from "react";
 import Image from "next/image";
+import Link from "next/link";
 import CustomButton from "@/components/global/CustomButton";
+import { usePathname } from "next/navigation";
 const logo = "/images/global/logo-caramelo-horizontal-black.webp";
 
 const Header: FC = () => {
     const [isScrolled, setIsScrolled] = useState(false);
+    const pathname = usePathname();
 
     useEffect(() => {
         const handleScroll = () => {
@@ -19,18 +22,24 @@ const Header: FC = () => {
         return () => window.removeEventListener("scroll", handleScroll);
     }, []);
 
+    const isHome = pathname === "/";
+
     return (
-        <header className={isScrolled ? "scrolled" : ""}>
+        <header className={!isHome || isScrolled ? "scrolled" : ""}>
             <div id="header-container">
-                <Image
-                    src={logo}
-                    alt="Caramelo® - Logo"
-                    width={240}
-                    height={30}
-                />
+                <Link href="/">
+                    <Image
+                        src={logo}
+                        alt="Caramelo® - Logo"
+                        width={240}
+                        height={30}
+                    />
+                </Link>
                 <div>
-                    <CustomButton href="/">Pra você</CustomButton>
-                    <CustomButton href="/">Pro seu negócio</CustomButton>
+                    <CustomButton href="/#for-you">Pra você</CustomButton>
+                    <CustomButton href="/#for-your-business">
+                        Pro seu negócio
+                    </CustomButton>
                 </div>
             </div>
         </header>

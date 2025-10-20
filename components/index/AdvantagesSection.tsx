@@ -24,9 +24,7 @@ const AdvantagesSection: FC = () => {
                             Nunca mais deixe de aproveitar seus benefícios 😍
                         </li>
                     </ul>
-                    <CustomButton href="/">
-                        Baixe o app agora - gratuito
-                    </CustomButton>
+                    <CustomButton href="/">Baixe o app em breve</CustomButton>
                 </div>
                 <div>
                     <h3>Para seu negócio</h3>
@@ -47,7 +45,7 @@ const AdvantagesSection: FC = () => {
                             ferramenta!
                         </li>
                     </ul>
-                    <CustomButton href="/">
+                    <CustomButton href="/quero-no-meu-estabelecimento">
                         Quero no meu estabelecimento
                     </CustomButton>
                 </div>

@@ -98,9 +98,7 @@ const ForYouSection: FC = () => {
                             </div>
                         </div>
                     </section>
-                    <CustomButton href="/">
-                        Baixe o app agora - gratuito
-                    </CustomButton>
+                    <CustomButton href="/">Baixe o app em breve</CustomButton>
                 </div>
             </div>
         </section>

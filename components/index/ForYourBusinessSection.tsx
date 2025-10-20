@@ -35,7 +35,7 @@ const ForYourBusinessSection: FC = () => {
                             Petshops, restaurantes, estúdios musicais,
                             barbearias, e muitos outros segmentos são aceitos!
                         </p>
-                        <CustomButton href="/">
+                        <CustomButton href="/quero-no-meu-estabelecimento">
                             Quero no meu estabelecimento
                         </CustomButton>
                     </div>

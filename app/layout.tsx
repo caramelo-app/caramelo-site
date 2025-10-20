@@ -11,9 +11,64 @@ const onest = Onest({
 });
 
 export const metadata: Metadata = {
-    title: "Caramelo - Sua carteira digital de selinhos de fidelidade",
+    metadataBase: new URL("https://appcaramelo.com.br"),
+    title: "Caramelo® - Carteira digital de selinhos de fidelidade",
     description:
         "Chega de cartãozinho! Com o Caramelo®, seus selinhos de fidelidade estão todos no celular — simples, confiável e de graça!",
+    keywords: [
+        "caramelo",
+        "carteira digital",
+        "selos",
+        "fidelidade",
+        "cartão fidelidade",
+        "programa de fidelidade",
+        "marketing digital",
+        "marketing de fidelidade",
+        "marketing pequenas empresas",
+        "marketing estudios de música",
+        "marketing barbearias",
+        "marketing petshops",
+        "marketing restaurantes",
+        "marketing salão de beleza"
+    ],
+    openGraph: {
+        type: "website",
+        url: "https://appcaramelo.com.br/",
+        title: "Caramelo® - Carteira digital de selinhos de fidelidade",
+        description:
+            "Chega de cartãozinho! Com o Caramelo®, seus selinhos de fidelidade estão todos no celular — simples, confiável e de graça!",
+        images: [
+            {
+                url: "/images/seo/og.jpeg",
+                width: 1200,
+                height: 630,
+                alt: "Caramelo®",
+            },
+        ],
+        siteName: "Caramelo®",
+        locale: "pt_BR",
+    },
+    twitter: {
+        card: "summary_large_image",
+        title: "Caramelo® - Carteira digital de selinhos de fidelidade",
+        description:
+            "Chega de cartãozinho! Com o Caramelo®, seus selinhos de fidelidade estão todos no celular — simples, confiável e de graça!",
+        images: ["/images/seo/og.jpeg"],
+    },
+    alternates: { canonical: "/", languages: { "pt-BR": "/" } },
+    robots: { index: true, follow: true, googleBot: { index: true, follow: true } },
+    icons: {
+        icon: [
+            { url: "/images/seo/favicon-16x16.png", sizes: "16x16", type: "image/png" },
+            { url: "/images/seo/favicon-32x32.png", sizes: "32x32", type: "image/png" },
+            { url: "/images/seo/android-chrome-192x192.png", sizes: "192x192", type: "image/png" },
+            { url: "/images/seo/android-chrome-512x512.png", sizes: "512x512", type: "image/png" },
+            { url: "/images/seo/favicon.ico", type: "image/x-icon" },
+        ],
+        apple: "/images/seo/apple-touch-icon.png",
+        shortcut: "/images/seo/favicon.ico",
+    },
+    manifest: "/images/seo/site.webmanifest"
 };
 
 export default function RootLayout({

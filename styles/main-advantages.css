@@ -1,5 +1,5 @@
 #advantages {
-    @apply container mx-auto pt-32 px-8;
+    @apply container mx-auto pt-32 px-8 mb-24;
 }
 
 #advantages h2 {

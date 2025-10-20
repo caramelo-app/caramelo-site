@@ -29,7 +29,7 @@ export const metadata: Metadata = {
         "marketing barbearias",
         "marketing petshops",
         "marketing restaurantes",
-        "marketing salão de beleza"
+        "marketing salão de beleza",
     ],
     openGraph: {
         type: "website",
@@ -56,19 +56,39 @@ export const metadata: Metadata = {
         images: ["/images/seo/og.jpeg"],
     },
     alternates: { canonical: "/", languages: { "pt-BR": "/" } },
-    robots: { index: true, follow: true, googleBot: { index: true, follow: true } },
+    robots: {
+        index: true,
+        follow: true,
+        googleBot: { index: true, follow: true },
+    },
     icons: {
         icon: [
-            { url: "/images/seo/favicon-16x16.png", sizes: "16x16", type: "image/png" },
-            { url: "/images/seo/favicon-32x32.png", sizes: "32x32", type: "image/png" },
-            { url: "/images/seo/android-chrome-192x192.png", sizes: "192x192", type: "image/png" },
-            { url: "/images/seo/android-chrome-512x512.png", sizes: "512x512", type: "image/png" },
+            {
+                url: "/images/seo/favicon-16x16.png",
+                sizes: "16x16",
+                type: "image/png",
+            },
+            {
+                url: "/images/seo/favicon-32x32.png",
+                sizes: "32x32",
+                type: "image/png",
+            },
+            {
+                url: "/images/seo/android-chrome-192x192.png",
+                sizes: "192x192",
+                type: "image/png",
+            },
+            {
+                url: "/images/seo/android-chrome-512x512.png",
+                sizes: "512x512",
+                type: "image/png",
+            },
             { url: "/images/seo/favicon.ico", type: "image/x-icon" },
         ],
         apple: "/images/seo/apple-touch-icon.png",
         shortcut: "/images/seo/favicon.ico",
     },
-    manifest: "/images/seo/site.webmanifest"
+    manifest: "/images/seo/site.webmanifest",
 };
 
 export default function RootLayout({

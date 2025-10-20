@@ -18,7 +18,11 @@ export default function HomePage() {
                         name: "Caramelo",
                         operatingSystem: "iOS, Android",
                         applicationCategory: "BusinessApplication",
-                        offers: { "@type": "Offer", price: "0", priceCurrency: "BRL" },
+                        offers: {
+                            "@type": "Offer",
+                            price: "0",
+                            priceCurrency: "BRL",
+                        },
                         url: "https://appcaramelo.com.br/",
                     }),
                 }}

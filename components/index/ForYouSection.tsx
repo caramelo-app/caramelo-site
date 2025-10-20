@@ -35,7 +35,10 @@ const ForYouSection: FC = () => {
                 <div id="highlights-container-content">
                     <section>
                         <div>
-                            <CheckBadgeIcon className="icon-highlight" aria-hidden="true" />
+                            <CheckBadgeIcon
+                                className="icon-highlight"
+                                aria-hidden="true"
+                            />
                             <div>
                                 <h3>Crie sua conta rapidinho</h3>
                                 <p>
@@ -48,7 +51,10 @@ const ForYouSection: FC = () => {
                             </div>
                         </div>
                         <div>
-                            <BuildingStorefrontIcon className="icon-highlight" aria-hidden="true" />
+                            <BuildingStorefrontIcon
+                                className="icon-highlight"
+                                aria-hidden="true"
+                            />
                             <div>
                                 <h3>Onde aceita?</h3>
                                 <p>
@@ -61,7 +67,10 @@ const ForYouSection: FC = () => {
                             </div>
                         </div>
                         <div>
-                            <QrCodeIcon className="icon-highlight" aria-hidden="true" />
+                            <QrCodeIcon
+                                className="icon-highlight"
+                                aria-hidden="true"
+                            />
                             <div>
                                 <h3>Como eu uso?</h3>
                                 <p>
@@ -73,7 +82,10 @@ const ForYouSection: FC = () => {
                             </div>
                         </div>
                         <div>
-                            <SparklesIcon className="icon-highlight" aria-hidden="true" />
+                            <SparklesIcon
+                                className="icon-highlight"
+                                aria-hidden="true"
+                            />
                             <div>
                                 <h3>E quando eu completar meu cartão?</h3>
                                 <p>
